@@ -1,6 +1,8 @@
-# Laughing Octo Enigma (cleaned)
+# 🚀 Aprimorado — Aplicação Full Stack
 
-Clean, deployable copy of the Laughing Octo Enigma fullstack project.
-Includes backend (Node + Express + TypeScript + Prisma + Postgres) and frontend (React + Vite).
+Aplicação web moderna com **Node.js (Express + TypeScript)** no backend e **React + Vite** no frontend.  
+Totalmente pronta para deploy automático no **Render.com**.
 
-See /backend/README_BACKEND.md for backend usage.
+---
+
+## 📁 Estrutura do Projeto
