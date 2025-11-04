@@ -23,7 +23,7 @@
     /* Mapas de origem (úteis em debug, opcional) */
     "sourceMap": true
   },
-  "include": ["./src/**/*"],
+  "include": ["**/*.ts"]
   "exclude": [
     "node_modules",
     "dist",
