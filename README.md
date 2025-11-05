@@ -1,21 +1,30 @@
-e# 🚀 Aprimorado — Aplicação Full Stack
+# 🚀 Aprimorado Minha Aplicação
 
-Aplicação web moderna com **Node.js (Express + TypeScript)** no backend e **React + Vite** no frontend.  
-Totalmente pronta para deploy automático no **Render.com**.
+Este projeto é uma aplicação **Full Stack** composta por um **backend Node.js/TypeScript (Express + Prisma)** e um **frontend com Vite/TypeScript**, desenvolvida para aprendizado e aprimoramento de boas práticas modernas de desenvolvimento web.
 
 ---
 
-## 📁 Estrutura do Projeto
----
+## 📦 Estrutura do Projeto
 
-## ⚙️ Como Rodar Localmente
-
-### 🔧 1. Clonar o repositório
 ```bash
-git clone https://github.com/seu-usuario/aprimorado-minha-aplica.git
-cd aprimorado-minha-aplica
-cd backend
-npm install
-npm run build
-npm run start
-cd front-end
+.
+├── backend/
+│   ├── prisma/
+│   │   └── schema.prisma           # Definição do banco de dados Prisma
+│   ├── src/
+│   │   └── index.ts                # Ponto de entrada principal do servidor
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   ├── package.json
+│   ├── tsconfig.build.json
+│   └── tsconfig.json
+│
+├── front-end/
+│   ├── index.html
+│   ├── vite.config.ts
+│   └── package.json
+│
+├── render.yaml                     # Configuração de deploy Render.com
+├── .github/workflows/              # Automação de CI/CD
+│
+└── README.md
