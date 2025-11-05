@@ -86,6 +86,3 @@ npm run dev
 cd front-end
 npm install
 npm run dev
-Pronto ✅  
-Você pode **copiar e colar** exatamente como está no arquivo `README.md` do seu repositório.  
-
